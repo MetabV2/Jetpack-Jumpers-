@@ -95,7 +95,7 @@ ImageButton.Image = "http://www.roblox.com/asset/?id=7529900564"
 
 -- Scripts:
 
-local function CYPNHHZ_fake_script() -- ImageLabel.LocalScript 
+local function RHIH_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -173,8 +173,8 @@ local function CYPNHHZ_fake_script() -- ImageLabel.LocalScript
 	
 	
 end
-coroutine.wrap(CYPNHHZ_fake_script)()
-local function HJPYOG_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(RHIH_fake_script)()
+local function WOSEK_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	while true do
@@ -192,8 +192,8 @@ local function HJPYOG_fake_script() -- ImageLabel.LocalScript
 		wait(.7)
 	end
 end
-coroutine.wrap(HJPYOG_fake_script)()
-local function EZYQST_fake_script() -- Button.Button7Script 
+coroutine.wrap(WOSEK_fake_script)()
+local function PUSFBF_fake_script() -- Button.Button7Script 
 	local script = Instance.new('LocalScript', Button)
 
 	local btn = script.Parent
@@ -236,44 +236,48 @@ local function EZYQST_fake_script() -- Button.Button7Script
 		end
 	end)
 end
-coroutine.wrap(EZYQST_fake_script)()
-local function YCSPAKS_fake_script() -- Button.METAB SCRIPT 
+coroutine.wrap(PUSFBF_fake_script)()
+local function XRIF_fake_script() -- Button.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button)
 
 	
 	
+	
 	script.Parent.MouseButton1Down:connect(function()
 	
-		for _,v in pairs(workspace.World.Lobby.Launcher.Collision:GetDescendants()) do
-			if v:IsA("TouchTransmitter") then
-				firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0) --0 is touch
-				wait()
-				firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1) -- 1 is untouch
-			end
-		end
-		wait(1)
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 299984400, 0)
-		wait(1)
-		for _,v in pairs(workspace.World.Areas.Area3.Platforms.Floor.LavaFloor:GetDescendants()) do
-			if v:IsA("TouchTransmitter") then
-				firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0) --0 is touch
-				wait()
-				firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1) -- 1 is untouch
-			end
-		end
 	
-	end)
+	
+	
+				for _,v in pairs(workspace.World.Lobby.Launcher.Collision:GetDescendants()) do
+					if v:IsA("TouchTransmitter") then
+						firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0) --0 is touch
+						wait()
+						firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1) -- 1 is untouch
+					end
+				end
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-108391248, 9e+18, 9e+18)
+				wait(1)
+				for _,v in pairs(workspace.World.Areas.Area3.Platforms.Floor.LavaFloor:GetDescendants()) do
+					if v:IsA("TouchTransmitter") then
+						firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0) --0 is touch
+						wait()
+						firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1) -- 1 is untouch
+	
+	
+			end
+		end
+		end)
 end
-coroutine.wrap(YCSPAKS_fake_script)()
-local function EWUIMEB_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(XRIF_fake_script)()
+local function YKNOW_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(EWUIMEB_fake_script)()
-local function UQVWE_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(YKNOW_fake_script)()
+local function BMTJ_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -316,8 +320,8 @@ local function UQVWE_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(UQVWE_fake_script)()
-local function REYEQT_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(BMTJ_fake_script)()
+local function RBZDPLC_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -325,4 +329,4 @@ local function REYEQT_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(REYEQT_fake_script)()
+coroutine.wrap(RBZDPLC_fake_script)()
